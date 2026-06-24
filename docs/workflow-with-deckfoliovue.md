@@ -1,4 +1,4 @@
-# Workflow
+# Workflow with deckfolio.vue
 
 This document defines the intended workflow for creating, presenting, and publishing presentation materials with deckfolio.vue.
 
