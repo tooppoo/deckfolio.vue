@@ -1,14 +1,18 @@
 {
-  "name": "template-dev",
+  "name": "deckfolio-dev",
   "image": "mcr.microsoft.com/devcontainers/base:2.1.9-trixie",
-  "workspaceFolder": "/workspaces/fizz",
+  "workspaceFolder": "/workspaces/deckfolio",
   "remoteUser": "vscode",
   "runArgs": [
     "--init"
   ],
   "postCreateCommand": "sh scripts/setup-dev.sh",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:2.1.0": {
+      "version": "24.18.0",
+      "pnpmVersion": "11.9.0"
+    }
   },
   "customizations": {
     "vscode": {
